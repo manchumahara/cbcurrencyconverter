@@ -1,24 +1,23 @@
 ## Customize the test machine
 machine:
+
   timezone:
-      America/New_York # Set the timezone
+    America/Denver # Set the timezone
 
-    # Version of ruby to use
+  # Version of php to use
   php:
-    version:
-      5.6.5
+    version: 5.4.21
 
+  # Add some environment variables
   environment:
-    WP_VERSION: latest
     CIRCLE_ENV: test
-    WP_MULTISITE: 0 
-    WP_CORE_DIR: /home/ubuntu/wordpress-develop 
-    WP_TESTS_DIR: /home/ubuntu/wordpress-develop/tests/phpunit 
-    plugin_loc: /home/ubuntu/$CIRCLE_PROJECT_REPONAME 
-    plugin_slug: $CIRCLE_PROJECT_REPONAME 
-    plugin_dir: /home/ubuntu/wordpress-develop/src/wp-content/plugins/$plugin_slug 
+    WP_MULTISITE: 0
+    WP_CORE_DIR: /home/ubuntu/wordpress-develop
+    WP_TESTS_DIR: /home/ubuntu/wordpress-develop/tests/phpunit
+    plugin_loc: /home/ubuntu/$CIRCLE_PROJECT_REPONAME
+    plugin_slug: $CIRCLE_PROJECT_REPONAME
+    plugin_dir: /home/ubuntu/wordpress-develop/src/wp-content/plugins/$plugin_slug
     plugin_tests_dir: /home/ubuntu/wordpress-develop/src/wp-content/plugins/$plugin_slug/tests
-
 
 
 ## Customize dependencies
@@ -36,14 +35,10 @@ dependencies:
     # setup phpunit
     - wget https://phar.phpunit.de/phpunit.phar && chmod +x phpunit.phar && mv phpunit.phar /home/ubuntu/.phpenv/shims/phpunit
 
-  override:
-    - touch composer.json
-    - ls
-
 ## tests override
 test:
   override:
     # comment out the below line to run a code coverage report.
-    - cd $plugin_tests_dir; cd ..; pwd; composer install; ls; phpunit
+    - cd $plugin_tests_dir; phpunit
     ## LINE 2/2 to uncomment if you want to run a code coverage report.
     # - cd $plugin_tests_dir; phpunit --coverage-html $CIRCLE_ARTIFACTS
