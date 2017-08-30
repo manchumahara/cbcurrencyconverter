@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CBX Currency Converter v1.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-07-06 18:28:14+0000\n"
+"Last-Translator: manchumahara <sabuj@codeboxr.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: admin/class-cbcurrencyconverter-admin.php:94
+#@ cbcurrencyconverter
+msgid "Oops, nothing found!"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:110
+#: widgets/cbcurrencyconverterwidget.php:35
+#: widgets/cbcurrencyconverterwidget.php:38
+#@ cbcurrencyconverter
+msgid "Currency Converter"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:150
+#@ cbcurrencyconverter
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:154
+#@ cbcurrencyconverter
+msgid "Calculator Settings"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:159
+#@ cbcurrencyconverter
+msgid "List Settings"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:164
+#@ cbcurrencyconverter
+msgid "Tools"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:199
+#@ cbcurrencyconverter
+msgid "Layout"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:204
+#: includes/class-cbcurrencyconverter-activator.php:51
+#: widgets/cbcurrencyconverterwidget.php:193
+#@ cbcurrencyconverter
+msgid "Calculator"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:205
+#: includes/class-cbcurrencyconverter-activator.php:65
+#: widgets/cbcurrencyconverterwidget.php:195
+#@ cbcurrencyconverter
+msgid "List"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:206
+#@ cbcurrencyconverter
+msgid "Calculator with List at bottom"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:207
+#@ cbcurrencyconverter
+msgid "Calculator with List at top"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:230
+#@ cbcurrencyconverter
+msgid "From"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:231
+#@ cbcurrencyconverter
+msgid "What Will Be Your Default  Currency To Convert From"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:238
+#@ cbcurrencyconverter
+msgid "To"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:239
+#@ cbcurrencyconverter
+msgid "What Will Be Your Default To  Currency"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:246
+#: admin/class-cbcurrencyconverter-admin.php:291
+#@ cbcurrencyconverter
+msgid "Default Amount"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:247
+#@ cbcurrencyconverter
+msgid "What Will Be Your Default Amount of Currency For Calculating"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:212
+#: admin/class-cbcurrencyconverter-admin.php:298
+#@ cbcurrencyconverter
+msgid "Decimal Point"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:213
+#: admin/class-cbcurrencyconverter-admin.php:299
+#@ cbcurrencyconverter
+msgid "decimal point position"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:306
+#@ cbcurrencyconverter
+msgid "Title"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:265
+#@ cbcurrencyconverter
+msgid "Remove Data on Uninstall?"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:266
+#@ cbcurrencyconverter
+msgid "Check this box if you would like <strong>CBX Currency Converter</strong> to completely remove all of its data when the plugin is deleted."
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:276
+#@ cbcurrencyconverter
+msgid "What Will Be Your Default Currency For Listing"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:283
+#@ cbcurrencyconverter
+msgid "To Currency"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:284
+#@ cbcurrencyconverter
+msgid "Currency list to convert and show in listing"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:292
+#@ cbcurrencyconverter
+msgid "Default amount for listing"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:307
+#@ cbcurrencyconverter
+msgid "Title to  show in listing"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:309
+#: includes/cbcurrencyconverter-helper.php:132
+#: includes/cbcurrencyconverter-helper.php:189
+#: public/class-cbcurrencyconverter-public.php:116
+#: widgets/cbcurrencyconverterwidget.php:70
+#@ cbcurrencyconverter
+msgid "List of Currency"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:331
+#@ cbcurrencyconverter
+msgid "Settings"
+msgstr ""
+
+#: admin/partials/admin-settings-display.php:25
+#@ cbcurrencyconverter
+msgid "Grab the Pro Version"
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: admin/partials/admin-settings-display.php:29
+#: cbcurrencyconverter.php:0
+#@ cbcurrencyconverter
+msgid "CBX Currency Converter"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: cbcurrencyconverter.php:0
+#@ cbcurrencyconverter
+msgid "http://codeboxr.com/product/cbx-currency-converter-for-wordpress/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: cbcurrencyconverter.php:0
+#@ cbcurrencyconverter
+msgid "Currency Converter widget and rate display."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: cbcurrencyconverter.php:0
+#@ cbcurrencyconverter
+msgid "codeboxr"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: cbcurrencyconverter.php:0
+#@ cbcurrencyconverter
+msgid "http://codeboxr.com"
+msgstr ""
+
+#: public/class-cbcurrencyconverter-public.php:90
+#@ cbcurrencyconverter
+msgid "Input in wrong format"
+msgstr ""
+
+#: widgets/cbcurrencyconverterwidget.php:181
+#@ cbcurrencyconverter
+msgid "Title:"
+msgstr ""
+
+#: widgets/cbcurrencyconverterwidget.php:189
+#@ cbcurrencyconverter
+msgid "Select Layout:"
+msgstr ""
+
+#: widgets/cbcurrencyconverterwidget.php:197
+#@ cbcurrencyconverter
+msgid "Calc with List Bottom"
+msgstr ""
+
+#: widgets/cbcurrencyconverterwidget.php:199
+#@ cbcurrencyconverter
+msgid "Calc with List Top"
+msgstr ""
+
+#: widgets/cbcurrencyconverterwidget.php:205
+#@ cbcurrencyconverter
+msgid "Hide:"
+msgstr ""
+
+#: widgets/cbcurrencyconverterwidget.php:209
+#@ cbcurrencyconverter
+msgid "Show Both Up & Down Button"
+msgstr ""
+
+#: widgets/cbcurrencyconverterwidget.php:211
+#@ cbcurrencyconverter
+msgid "Up  Button"
+msgstr ""
+
+#: widgets/cbcurrencyconverterwidget.php:213
+#@ cbcurrencyconverter
+msgid "Down Button"
+msgstr ""
+
+#: widgets/cbcurrencyconverterwidget.php:220
+#@ cbcurrencyconverter
+msgid "Decimal Point:"
+msgstr ""
+
+#: includes/cbcurrencyconverter-helper.php:54
+#@ cbcurrencyconverter
+msgid "Amount"
+msgstr ""
+
+#: includes/cbcurrencyconverter-helper.php:58
+#@ cbcurrencyconverter
+msgid "From :"
+msgstr ""
+
+#: includes/cbcurrencyconverter-helper.php:60
+#: includes/cbcurrencyconverter-helper.php:76
+#: includes/cbcurrencyconverter-helper.php:231
+#: includes/cbcurrencyconverter-helper.php:242
+#@ cbcurrencyconverter
+msgid "Select a currency"
+msgstr ""
+
+#: includes/cbcurrencyconverter-helper.php:72
+#@ cbcurrencyconverter
+msgid "To :"
+msgstr ""
+
+#: includes/cbcurrencyconverter-helper.php:99
+#@ cbcurrencyconverter
+msgid "Up"
+msgstr ""
+
+#: includes/cbcurrencyconverter-helper.php:100
+#@ cbcurrencyconverter
+msgid "Down"
+msgstr ""
+
+#: includes/cbcurrencyconverter-helper.php:250
+#@ cbcurrencyconverter
+msgid "Convert"
+msgstr ""
+
+#: includes/cbcurrencyconverter-helper.php:146
+#@ cbcurrencyconverter
+msgid "equals"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:200
+#@ cbcurrencyconverter
+msgid "Select layout"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:223
+#@ cbcurrencyconverter
+msgid "Enable Currencies"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:224
+#@ cbcurrencyconverter
+msgid "Currency list to convert and show in Calculator Dropdown"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:255
+#: includes/cbcurrencyconverter-helper.php:33
+#: includes/cbcurrencyconverter-helper.php:196
+#: public/class-cbcurrencyconverter-public.php:123
+#: widgets/cbcurrencyconverterwidget.php:77
+#: widgets/cbcurrencyconverterwidget.php:169
+#@ cbcurrencyconverter
+msgid "Currency Calculator"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:256
+#@ cbcurrencyconverter
+msgid "Title to show in calculator"
+msgstr ""
+
+#: admin/class-cbcurrencyconverter-admin.php:275
+#@ cbcurrencyconverter
+msgid "From Currency"
+msgstr ""
+
+#: includes/class-cbcurrencyconvertersetting.php:438
+#@ default
+msgid "Choose File"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: cbcurrencyconverter.php:0
+#@ cbcurrencyconverter
+msgid "1.6"
+msgstr ""
+
